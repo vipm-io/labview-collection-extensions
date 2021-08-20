@@ -15,7 +15,7 @@
 			<Item Name="Create Empty Map.vim" Type="VI" URL="../Map/Create Empty Map.vim"/>
 			<Item Name="Get Keys from Map.vim" Type="VI" URL="../Map/Get Keys from Map.vim"/>
 		</Item>
-		<Item Name="- Test - Map VIMs.vi" Type="VI" URL="../- Test - Map VIMs.vi"/>
+		<Item Name="Map Extension Examples.vi" Type="VI" URL="../Map Extension Examples.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
