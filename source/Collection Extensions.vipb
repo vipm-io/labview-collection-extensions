@@ -1,11 +1,11 @@
 <VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-08-19 21:30:13" Modified_Date="2021-08-19 22:26:58" Creator="Jim Kring" Comments="" ID="ba1849fc564a6094cb581f80e080d041">
   <Library_General_Settings>
-    <Package_File_Name>jki_lib_labview_collection_extensions</Package_File_Name>
+    <Package_File_Name>vipm_lib_labview_collection_extensions</Package_File_Name>
     <Library_Version>0.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
-    <Company_Name>JKI</Company_Name>
+    <Company_Name>vipm.io</Company_Name>
     <Library_Summary/>
     <Library_License>BSD3</Library_License>
     <Package_LabVIEW_Version>20.0</Package_LabVIEW_Version>
@@ -35,14 +35,14 @@ A map groups key-value pairs in sorted order where all the keys are unique. The 
 A set groups unique elements of the same data type in sorted order. Inserting a new element modifies the set only if that element does not already exist in the set.</Description>
       <Copyright/>
       <Packager/>
-      <URL>https://github.com/JKISoftware/jki-collection-extensions</URL>
+      <URL>https://github.com/vipm-io/vipm-collection-extensions</URL>
       <Release_Notes/>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;vi.lib&gt;\JKI\Map_Extensions</Path>
+        <Path>&lt;vi.lib&gt;\VIPM\Collection_Extensions</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -113,7 +113,7 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
       <Namespace_Overrides>
         <Path>.</Path>
         <Namespace_Type>Suffix</Namespace_Type>
-        <Namespace>__jki_lib_labview_collection_extensions</Namespace>
+        <Namespace>__vipm_lib_labview_collection_extensions</Namespace>
       </Namespace_Overrides>
       <Place_Folder_Contents>
         <Path/>
