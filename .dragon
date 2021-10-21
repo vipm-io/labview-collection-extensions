@@ -2,7 +2,7 @@
   "name":"Collection Extensions",
   "labview-version":"2020",
   "labview-bitness":"any",
-  "lv-venv":"lv-venv",
+  "lv-venv":"",
   "main-project":"source/Collection Extensions.lvproj",
   "main-vipc":"source/Collection Extensions.vipc",
   "main-vipb":"source/Collection Extensions.vipb"
