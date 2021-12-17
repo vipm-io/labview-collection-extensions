@@ -27,7 +27,12 @@
 			<Item Name="Create Empty Set.vim" Type="VI" URL="../Set/Create Empty Set.vim"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
-			<Item Name="Test Array to Map.vi" Type="VI" URL="../Tests/Map/Test Array to Map.vi"/>
+			<Item Name="Map" Type="Folder">
+				<Item Name="Test Array to Map.vi" Type="VI" URL="../Tests/Map/Test Array to Map.vi"/>
+			</Item>
+			<Item Name="Set" Type="Folder">
+				<Item Name="Test Array to Set.vi" Type="VI" URL="../Tests/Set/Test Array to Set.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Map Extension Examples.vi" Type="VI" URL="../Map Extension Examples.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
