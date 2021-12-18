@@ -16,3 +16,9 @@
 *.lvlps
 .cache/
 .source/
+
+# Test Results
+test-results/
+
+# Built Packages
+*.vip
