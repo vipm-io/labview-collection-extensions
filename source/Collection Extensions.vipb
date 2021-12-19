@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-08-19 21:30:13" Modified_Date="2021-12-18 10:52:17" Creator="Jim Kring" Comments="" ID="ffa24523d1baf52c7d052d9c6a67c489">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-08-19 21:30:13" Modified_Date="2021-12-19 08:50:14" Creator="Jim Kring" Comments="" ID="519f42e696efdd9d5bbe6f1d6a6264e3">
   <Library_General_Settings>
     <Package_File_Name>vipm_lib_labview_collection_extensions</Package_File_Name>
-    <Library_Version>0.2.0.23</Library_Version>
+    <Library_Version>0.2.1.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -37,7 +37,8 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
       <Packager>See AUTHORS File in repository</Packager>
       <URL>https://github.com/vipm-io/labview-collection-extensions</URL>
       <Release_Notes>- Added malleable VIs: "Create Empty Set" &amp; "Convert Array to Set"
-- Updated iconf of "Convert Array to Map"</Release_Notes>
+- Updated iconf of "Convert Array to Map"
+- Added "(inverted outputs)" to names of wrapper VIMs for Insert, Look, and Remove functions</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -222,7 +223,7 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Insert into Map.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Insert into Map.vim (inverted outputs)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -236,7 +237,7 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Remove from Map.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Remove from Map.vim (inverted outputs)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -250,7 +251,7 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Look in Map.vim</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Look in Map.vim (inverted outputs)</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -373,7 +374,7 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
         <Path>Set\Convert Array to Set.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1DFBC999D83E6A3679234402EC63F2A7</GUID>
+      <GUID>391299222965EF918CE80418C51344ED</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
