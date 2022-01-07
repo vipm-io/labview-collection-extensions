@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-08-19 21:30:13" Modified_Date="2022-01-07 11:19:07" Creator="Jim Kring" Comments="" ID="74c8f1b84a9ef7c323ae9386aa652c04">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-08-19 21:30:13" Modified_Date="2022-01-07 12:08:38" Creator="Jim Kring" Comments="" ID="1ce8a42388ddd38ad1671060d178d759">
   <Library_General_Settings>
     <Package_File_Name>vipm_lib_labview_collection_extensions</Package_File_Name>
-    <Library_Version>0.3.0.27</Library_Version>
+    <Library_Version>0.3.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -385,7 +385,7 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
         <Path>Set\Convert Set to Array.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>935B7B5B1FD76953BAFADA0CEB177346</GUID>
+      <GUID>FEF0EEC77C0967204CDC263C97C0FCE1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
