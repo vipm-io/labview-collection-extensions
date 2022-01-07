@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-08-19 21:30:13" Modified_Date="2022-01-06 11:49:59" Creator="Jim Kring" Comments="" ID="c81afca25b009ba10792c51b32f83ea1">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-08-19 21:30:13" Modified_Date="2022-01-07 11:19:07" Creator="Jim Kring" Comments="" ID="74c8f1b84a9ef7c323ae9386aa652c04">
   <Library_General_Settings>
     <Package_File_Name>vipm_lib_labview_collection_extensions</Package_File_Name>
-    <Library_Version>0.2.2.25</Library_Version>
+    <Library_Version>0.3.0.27</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -36,7 +36,7 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
       <Copyright>Copyright (c) 2021</Copyright>
       <Packager>See AUTHORS File in repository</Packager>
       <URL>https://github.com/vipm-io/labview-collection-extensions</URL>
-      <Release_Notes>- Added missing "(inverted outputs)" label to the "Look in Map" VIM.</Release_Notes>
+      <Release_Notes>- Added "Convert Set to Array" and "Convert Map to Array" VIMs. These wrap the native For loop merge VIs for BD cleanliness and symmetry with the other "Convert Array to Map/Set" VIMs.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -290,20 +290,6 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Convert Map To Array</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>true</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>&lt;vi.lib&gt;\set and map palettes\Convert Map To Array.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>BUILT_IN_FUNC_2463_1_2_Build Map</NameSub_Menu_Name>
         <Short_Name>BUILT_IN_FUNC_2463_1_2_Build Map</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
@@ -371,7 +357,35 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
         <Path>Map\Look in Map.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07ABBFCBF0CE0C2866005932FE91DAD5</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Convert Map to Array.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Map\Convert Map to Array.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Convert Set to Array.vim</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Set\Convert Set to Array.vim</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>935B7B5B1FD76953BAFADA0CEB177346</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

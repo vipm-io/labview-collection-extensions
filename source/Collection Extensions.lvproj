@@ -16,6 +16,7 @@
 				<Item Name="Get Map Default Values.vim" Type="VI" URL="../Map/Get Map Default Values.vim"/>
 			</Item>
 			<Item Name="Convert Array to Map.vim" Type="VI" URL="../Map/Convert Array to Map.vim"/>
+			<Item Name="Convert Map to Array.vim" Type="VI" URL="../Map/Convert Map to Array.vim"/>
 			<Item Name="Create Empty Map.vim" Type="VI" URL="../Map/Create Empty Map.vim"/>
 			<Item Name="Get Keys from Map.vim" Type="VI" URL="../Map/Get Keys from Map.vim"/>
 			<Item Name="Insert into Map.vim" Type="VI" URL="../Map/Insert into Map.vim"/>
@@ -24,16 +25,19 @@
 		</Item>
 		<Item Name="Set" Type="Folder">
 			<Item Name="Convert Array to Set.vim" Type="VI" URL="../Set/Convert Array to Set.vim"/>
+			<Item Name="Convert Set to Array.vim" Type="VI" URL="../Set/Convert Set to Array.vim"/>
 			<Item Name="Create Empty Set.vim" Type="VI" URL="../Set/Create Empty Set.vim"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Map" Type="Folder">
 				<Item Name="Test Array to Map.vi" Type="VI" URL="../Tests/Map/Test Array to Map.vi"/>
 				<Item Name="Test Create Empty Map.vi" Type="VI" URL="../Tests/Map/Test Create Empty Map.vi"/>
+				<Item Name="Test Map to Array.vi" Type="VI" URL="../Tests/Map/Test Map to Array.vi"/>
 			</Item>
 			<Item Name="Set" Type="Folder">
 				<Item Name="Test Array to Set.vi" Type="VI" URL="../Tests/Set/Test Array to Set.vi"/>
 				<Item Name="Test Create Empty Set.vi" Type="VI" URL="../Tests/Set/Test Create Empty Set.vi"/>
+				<Item Name="Test Set to Array.vi" Type="VI" URL="../Tests/Set/Test Set to Array.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Map Extension Examples.vi" Type="VI" URL="../Map Extension Examples.vi"/>
