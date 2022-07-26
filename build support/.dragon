@@ -1,0 +1,9 @@
+{
+  "name":"Collection Extensions Build Support",
+  "labview-version":"2020",
+  "labview-bitness":"any",
+  "lv-venv":"",
+  "main-project":"",
+  "main-vipc":"build_support.vipc",
+  "main-vipb":""
+}
