@@ -493,10 +493,7 @@
 		<Item Name="Run All Tests.vi" Type="VI" URL="../../build support/Run All Tests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Assert Equal Value and Type_Variant.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlibp/1abvi3w/vi.lib/addons/_JKI Toolkits/Caraya/classes/Assert/Assert Equal Value and Type_Variant.vi"/>
-				<Item Name="Assert.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlibp/1abvi3w/vi.lib/addons/_JKI Toolkits/Caraya/classes/Assert/Assert.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
-				<Item Name="Define Test.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlibp/1abvi3w/vi.lib/addons/_JKI Toolkits/Caraya/classes/Test/Define Test.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
