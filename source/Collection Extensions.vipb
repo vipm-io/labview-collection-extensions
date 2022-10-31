@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-08-19 21:30:13" Modified_Date="2022-05-31 00:09:20" Creator="Jim Kring" Comments="" ID="3ecd6cadcc14c4d98d454ed7d0e9ee34">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-08-19 21:30:13" Modified_Date="2022-10-31 11:01:54" Creator="Jim Kring" Comments="" ID="143f52b8e8f898d54fd53957305e13d5">
   <Library_General_Settings>
     <Package_File_Name>vipm_lib_labview_collection_extensions</Package_File_Name>
-    <Library_Version>0.3.1.33</Library_Version>
+    <Library_Version>0.3.2.34</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -35,10 +35,10 @@
 A map groups key-value pairs in sorted order where all the keys are unique. The key and value can each be any data type. Maps are also known as dictionaries because the key is used to look up a value. Inserting a key-value pair into a map either adds the pair to the map or replaces the existing value of the associated key with the new value in the map, depending on whether the key already exists in the map.
 
 A set groups unique elements of the same data type in sorted order. Inserting a new element modifies the set only if that element does not already exist in the set.</Description>
-      <Copyright>Copyright (c) 2021</Copyright>
+      <Copyright>Copyright (c) 2021-2022</Copyright>
       <Packager>See AUTHORS File in repository</Packager>
       <URL>https://github.com/vipm-io/labview-collection-extensions</URL>
-      <Release_Notes>-Fixed bad linkage to "Get Map Default Values.vim" in "Insert into Map.vim"</Release_Notes>
+      <Release_Notes>- added unit test for Test Get Keys from Map</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -117,6 +117,12 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
         <Namespace_Type>Suffix</Namespace_Type>
         <Namespace>__vipm_lv_collection_ext</Namespace>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Tests</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Collection Extensions.lvproj</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -388,7 +394,7 @@ A set groups unique elements of the same data type in sorted order. Inserting a 
         <Path>Set\Convert Set to Array.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7771B45CF35F3E2BC6B7061154501DB7</GUID>
+      <GUID>6838109640095FCAE49BD9925F4D3B53</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
