@@ -67,6 +67,9 @@
 				<Item Name="Test Get Keys from Map.vi" Type="VI" URL="../Tests/Map/Test Get Keys from Map.vi">
 					<Property Name="marked" Type="Int">0</Property>
 				</Item>
+				<Item Name="Test Get Map Default Values.vi" Type="VI" URL="../Tests/Map/Test Get Map Default Values.vi">
+					<Property Name="marked" Type="Int">0</Property>
+				</Item>
 			</Item>
 			<Item Name="Set" Type="Folder">
 				<Item Name="Test Array to Set.vi" Type="VI" URL="../Tests/Set/Test Array to Set.vi">
