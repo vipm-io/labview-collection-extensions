@@ -16,6 +16,7 @@
 *.lvlps
 .cache/
 .source/
+.dragon/
 
 # Test Results
 test-results/
